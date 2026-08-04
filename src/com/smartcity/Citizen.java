@@ -80,15 +80,42 @@ public class Citizen implements IPayble, IIdentifiable
 	public void payBill(double amount) 
 	{
 		System.out.println(name+" paid bill - amount : "+amount);
-		
 	}
 
 	@Override
-	public void payTax() {
-		
+	public void payTax() 
+	{
 		System.out.println(name+" paid tax ");
 		
 	}
-	
+	public void updateName(String newName)
+	{
+	    this.name = newName;
+	    System.out.println("Name updated successfully.");
+	}
+
+	public void updateAge(int newAge)
+	{
+	    this.age = newAge;
+	    System.out.println("Age updated successfully.");
+	}
+
+	public void updateGender(String newGender)
+	{
+	    this.gender = newGender;
+	    System.out.println("Gender updated successfully.");
+	}
+
+	public void updateAddress(String newAddress)
+	{
+	    this.address = newAddress;
+	    System.out.println("Address updated successfully.");
+	}
+
+	public void updatePhone(String newPhone)
+	{
+	    this.phone = newPhone;
+	    System.out.println("Phone number updated successfully.");
+	}
 	
 }
