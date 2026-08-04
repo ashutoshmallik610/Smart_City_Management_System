@@ -65,9 +65,16 @@ public class Citizen implements IPayble, IIdentifiable
 	}
 
 	@Override
-	public void verifyIdentify() 
-	{	
-		
+	public void verifyIdentify()
+	{
+	    System.out.println("\n----- Identity Verification -----");
+	    System.out.println("Citizen ID : " + citizenId);
+	    System.out.println("Name       : " + name);
+	    System.out.println("Age        : " + age);
+	    System.out.println("Gender     : " + gender);
+	    System.out.println("Address    : " + address);
+	    System.out.println("Phone      : " + phone);
+	    System.out.println("Identity Verified Successfully.");
 	}
 
 	@Override
@@ -83,5 +90,6 @@ public class Citizen implements IPayble, IIdentifiable
 		System.out.println(name+" paid tax ");
 		
 	}
+	
 	
 }
