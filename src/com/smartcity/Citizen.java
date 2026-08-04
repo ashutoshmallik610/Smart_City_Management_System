@@ -1,6 +1,5 @@
 package com.smartcity;
 
-import java.util.Scanner;
 public class Citizen implements IPayble, IIdentifiable
 {
 	private String citizenId;
