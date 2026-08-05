@@ -42,4 +42,9 @@ public abstract class Employee extends Citizen implements Reportable
 	    this.dept = newDepartment;
 	    System.out.println("Department updated successfully.");
 	}
+	public void updateSalary(int newSalary)
+	{
+	    this.salary = newSalary;
+	    System.out.println("Salary updated successfully.");
+	}
 }
