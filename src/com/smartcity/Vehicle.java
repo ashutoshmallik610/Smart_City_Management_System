@@ -32,5 +32,15 @@ public class Vehicle
 	    System.out.println("Owner updated successfully.");
 	}
 
+	public void updateVehicleType(String newType)
+	{
+	    this.vehicleType = newType;
+	    System.out.println("Vehicle type updated successfully.");
+	}
 
+	public void updateVehicleNumber(String newNumber)
+	{
+	    this.vehicleNumber = newNumber;
+	    System.out.println("Vehicle number updated successfully.");
+	}
 }
