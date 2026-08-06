@@ -26,4 +26,11 @@ public class Vehicle
 	{
 		System.out.println(owner + " paid road tax");
 	}
+	public void updateOwner(String newOwner)
+	{
+	    this.owner = newOwner;
+	    System.out.println("Owner updated successfully.");
+	}
+
+
 }
