@@ -17,4 +17,9 @@ public class Services
 	{
 		System.out.println("Your request rejested for "+serviceName);
 	}
+	public void updateServiceName(String newServiceName)
+	{
+	    this.serviceName = newServiceName;
+	    System.out.println("Service name updated successfully.");
+	}
 }
